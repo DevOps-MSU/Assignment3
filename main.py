@@ -43,10 +43,10 @@ while loop == True:
                 print("")
         
         elif function_choice == 2:
-            age = int(input("Enter your current age: "))
-            annual_sal = int(input("Enter your annual salary: "))
-            percentage = int(input("Enter the percent you wish to save from your annual salary (integer only):"))
-            goal = int(input("What is your desired goal for your retirement savings?"))
+            age = input("Enter your current age: ")
+            annual_sal = input("Enter your annual salary: ")
+            percentage = input("Enter the percent you wish to save from your annual salary (integer only):")
+            goal = input("What is your desired goal for your retirement savings?")
             result = calucate_years_to_goal (age, annual_sal, percentage, goal)
             print(result)
             
