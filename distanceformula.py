@@ -6,10 +6,10 @@ def DistanceFormula(x1, y1, x2, y2):
     end = False
     
     try:
-        val = int(x1)
-        val2 = int(y1)
-        val3 = int(x2)
-        val4 = int(y2)
+        x1 = int(x1)
+        y1 = int(y1)
+        x2 = int(x2)
+        y2 = int(y2)
     except ValueError:
         print ("Invalid Input")
         distance = "Invalid Input"
